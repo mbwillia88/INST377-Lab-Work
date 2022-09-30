@@ -8,7 +8,7 @@
 */
 
 html {
-  background-color: #fff;
+  background-color: #e7ecef;
   font-size: 16px;
   min-width: 300px;
   overflow-x: hidden;
@@ -30,7 +30,7 @@ body {
   font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’, ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
   font-weight: 400;
   line-height: 1.5;
-  background-color: rgb(239, 239, 239);
+  background-color: #E7ECEF;
 }
 
 
@@ -92,7 +92,7 @@ form {
   /* this will push other blocks out of the way */
 
   /* colors */
-  background-color: #ffe08a;
+  background-color: #8EF9F3;
   color: #4a4a4a;
 
   /* shapes */
@@ -128,14 +128,14 @@ form {
 }
 
 .left_section {
-  background-color: rgba(0, 139, 139, 0.8);
+  background-color: #8377D1;
   flex: 0 1 auto;
   margin: 1rem;
   padding: 1.5rem;
 }
 
 .right_section {
-  background-color: rgba(255, 224, 138, 0.7);
+  background-color: #93BEDF;
   flex: 1 2 auto;
   margin: 1rem;
   align-items: center;
@@ -154,7 +154,7 @@ form {
 .footer {
   flex-shrink: 0;
   padding: 1rem;
-  background-color: rgba(0, 139, 139, 0.8);
+  background-color: #6D5A72;
   font-size: 1.2rem;
   font-weight: 600;
 }
@@ -303,7 +303,7 @@ form label {
     /* Rules in here will only apply when a screen is the correct size */
     /* check it out by using your developer tools to shrink your screen-size */
     .container {
-      background-color: rgba(20, 238, 194, 0.65);
+      background-color: rgba(123, 9, 98, 0.65);
       flex-direction: column;
       justify-content: center;
       align-items: center;
