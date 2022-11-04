@@ -76,10 +76,11 @@ function processRestaurants(list) {
 
 function filterList(array, filterInputValue) {
     return array.filter((item) => {
+      if (!item.name) { return; }
         const lowerCaseName = item.name.toLowerCase();
         const lowerCaseQuery = filterInputValue.toLowerCase();
         return lowerCaseName.includes(lowerCaseQuery)
-    })
+    });
 }
 
 async function mainEvent() {
