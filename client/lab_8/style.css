@@ -317,6 +317,12 @@
       This comes from loading.io/css - it's nice to show that something is happening!
   */
   
+  /* Map Styles */
+  #map { height: 180px; }
+  
+  
+  
+  
   .lds-ellipsis {
       display: inline-block;
       position: relative;
