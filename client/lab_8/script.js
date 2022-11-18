@@ -94,7 +94,6 @@ function initMap() {
 }
 
 function markerPlace(array, map) {
-  console.log('markerPlace', array);
   // const marker = L.marker([51.5, -0.09]).addTo(map);
   map.eachLayer((layer) => {
     if (layer instanceof L.Marker) {
@@ -160,7 +159,7 @@ async function mainEvent() {
       console.log(event.target.value);
       const filteredList = filterList(currentList, event.target.value);
       injectHTML(filteredList);
-      markerPlace(currentList, pageMap);
+      markerPlace(filteredList, pageMap);
     });
 
     // And here's an eventListener! It's listening for a "submit" button specifically being clicked
